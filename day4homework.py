@@ -1,89 +1,89 @@
-# # # # The Range Riddle
-# import random
-# mood = ("Happy", "Sad", "Energetic", "Calm")
-# days_of_week = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+# # # The Range Riddle
+import random
+mood = ("Happy", "Sad", "Energetic", "Calm")
+days_of_week = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
 
-# for i in range(len(days_of_week)):
-#     print(f"On {days_of_week[i]} you were feeling {random.choice(mood)}")
+for i in range(len(days_of_week)):
+    print(f"On {days_of_week[i]} you were feeling {random.choice(mood)}")
 
-# # Double Scoop with Nested loops
+# Double Scoop with Nested loops
 
-# time_of_day = ("Morning", "Afternoon", "Evening")
+time_of_day = ("Morning", "Afternoon", "Evening")
 
-# for x in range(len(days_of_week)):
-#     for y in range(len(time_of_day)):
-#             print(f"On {days_of_week[x]} you were feeling {random.choice(mood)} in the {time_of_day[y]}")
+for x in range(len(days_of_week)):
+    for y in range(len(time_of_day)):
+            print(f"On {days_of_week[x]} you were feeling {random.choice(mood)} in the {time_of_day[y]}")
 
-# # Loop Comdition Logic
+# Loop Comdition Logic
 
-# hour_int = 0
+hour_int = 0
 
-# while True:
-#     hour_int += 1
-#     print("This loop will never end")
-#     if hour_int >= 5:
-#         break
+while True:
+    hour_int += 1
+    print("This loop will never end")
+    if hour_int >= 5:
+        break
 
-# # Task 2
+# Task 2
 
-# while hour_int < 10:
-#     hour_int += 1
-#     print("This loop will never end")
-#     hour_int >= 10
+while hour_int < 10:
+    hour_int += 1
+    print("This loop will never end")
+    hour_int >= 10
 
-# # Random Game night
+# Random Game night
     
-# items = ("Apple", "Banana", "Orange", "Grape")
-# user_choice = input("What is your choice? : ")
-# pc_choice = random.choice(items)
+items = ("Apple", "Banana", "Orange", "Grape")
+user_choice = input("What is your choice? : ")
+pc_choice = random.choice(items)
 
-# if user_choice == pc_choice:
-#     print("Congratulations you picked the same thing!")
-# else:
-#     print(f"You chose {user_choice} and the computer chose {pc_choice}")
+if user_choice == pc_choice:
+    print("Congratulations you picked the same thing!")
+else:
+    print(f"You chose {user_choice} and the computer chose {pc_choice}")
 
-# # Looping Lists
+# Looping Lists
 
-# genres = ['Jazz', 'Rock', 'Hip-hop', 'Classical']
-# message = ("Dope", "Fun", "Gangster", "Exciting")
+genres = ['Jazz', 'Rock', 'Hip-hop', 'Classical']
+message = ("Dope", "Fun", "Gangster", "Exciting")
 
-# for i in range(len(genres)):
-#     track = i + 1
-#     print(f"Your track number is {track}:  Genre is {genres[i]} thats so {message[i]}.")
+for i in range(len(genres)):
+    track = i + 1
+    print(f"Your track number is {track}:  Genre is {genres[i]} thats so {message[i]}.")
 
-# # Task 2
+# Task 2
 
-# track = 0
+track = 0
 
-# while True:
-#     random_genre = (random.choice(genres))
-#     random_message = (random.choice(message))
-#     if random_genre != "Hip-hop":
-#         track += 1
-#         print(f"Your track number is {track}:  Genre is {random_genre} thats so {random_message}.")
-#     else:
-#         print("Uh oh, looks like the end of our playlist!")
-#         break
+while True:
+    random_genre = (random.choice(genres))
+    random_message = (random.choice(message))
+    if random_genre != "Hip-hop":
+        track += 1
+        print(f"Your track number is {track}:  Genre is {random_genre} thats so {random_message}.")
+    else:
+        print("Uh oh, looks like the end of our playlist!")
+        break
 
-# # Task 3
+# Task 3
 
-# genres = ['Jazz', 'Rock', 'Hip-hop', 'Classical']
-# message = ("Dope", "Fun", "Gangster", "Exciting")
-# track = 0
+genres = ['Jazz', 'Rock', 'Hip-hop', 'Classical']
+message = ("Dope", "Fun", "Gangster", "Exciting")
+track = 0
 
-# while True:
-#     random_genre = (random.choice(genres))
-#     if random_genre != "Classical":
-#         track += 1    
-#         print(f"Your track number {track} in genre {random_genre} is ready for the light show.")
-#     else:
-#         track += 1    
-#         print(f"Your track number {track} in genre {random_genre}. No light show needed!")
-#         break
+while True:
+    random_genre = (random.choice(genres))
+    if random_genre != "Classical":
+        track += 1    
+        print(f"Your track number {track} in genre {random_genre} is ready for the light show.")
+    else:
+        track += 1    
+        print(f"Your track number {track} in genre {random_genre}. No light show needed!")
+        break
 
 
 
-# # Advanced Looping Techniques Task 1
+# Advanced Looping Techniques Task 1
 
 
 genres = ['Jazz', 'Rock', 'Hip-hop', 'Classical']
